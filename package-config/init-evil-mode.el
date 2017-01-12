@@ -2,6 +2,9 @@
     :ensure t
     :config (progn 
               (evil-leader/set-leader "<SPC>")
+              (evil-leader/set-key
+                "w" 'save-buffer
+                )
               (global-evil-leader-mode)))
 
 (use-package evil
