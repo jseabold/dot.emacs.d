@@ -14,6 +14,8 @@
   :ensure t
   :after evil
   :diminish evil-escape-mode
+  :init 
+  (setq evil-escape-key-sequence "jk")
   :config (progn
             (evil-escape-mode)))
 
