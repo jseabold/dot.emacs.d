@@ -20,4 +20,5 @@
     :ensure t
     :config (progn (load-theme 'solarized-dark t)))
 
+(require 'init-autopair)
 (require 'init-evil-mode)
