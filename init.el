@@ -5,6 +5,9 @@
                          ("org" . "http://orgmode.org/elpa/")
                          ("gnu" . "http://elpa.gnu.org/packages/")))
 
+;; so it is written
+(setq-default indent-tabs-mode nil)
+
 ;; Package Configuration
 
 (require 'package)
