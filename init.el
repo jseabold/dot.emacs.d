@@ -8,6 +8,7 @@
 ;; so it is written
 (setq-default indent-tabs-mode nil)
 (setq make-backup-files nil)
+(show-paren-mode 1)
 
 ;; Package Configuration
 
