@@ -12,6 +12,7 @@
 
 (require 'package)
 (package-initialize)
+(setq use-package-always-ensure t)
 
  ;; Bootstrap use-package
 (unless (package-installed-p 'use-package)
@@ -20,7 +21,6 @@
 (require 'use-package)
 
 (use-package solarized-theme
-    :ensure t
     :config (progn (load-theme 'solarized-dark t)))
 
 (require 'init-autopair)
