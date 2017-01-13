@@ -24,4 +24,5 @@
     :config (progn (load-theme 'solarized-dark t)))
 
 (require 'init-autopair)
+(require 'init-web-mode)
 (require 'init-evil-mode)
