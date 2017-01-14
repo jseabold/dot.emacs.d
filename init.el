@@ -5,13 +5,7 @@
                          ("org" . "http://orgmode.org/elpa/")
                          ("gnu" . "http://elpa.gnu.org/packages/")))
 
-;; so it is written
-(setq-default indent-tabs-mode nil)
-(setq make-backup-files nil)
-(show-paren-mode 1)
-
 ;; Package Configuration
-
 (require 'package)
 (package-initialize)
 (setq use-package-always-ensure t)
@@ -21,6 +15,9 @@
   (package-refresh-contents)
   (package-install 'use-package))
 (require 'use-package)
+
+(use-package better-defaults
+    :ensure t)
 
 (use-package solarized-theme
     :config (progn (load-theme 'solarized-dark t)))
