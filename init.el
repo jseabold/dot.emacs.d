@@ -18,10 +18,11 @@
 
 (use-package better-defaults
     :ensure t)
-
+             
 (use-package solarized-theme
     :config (progn (load-theme 'solarized-dark t)))
 
+(require 'init-flycheck-mode)
 (require 'init-autopair)
 (require 'init-web-mode)
 (require 'init-evil-mode)
