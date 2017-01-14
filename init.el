@@ -21,6 +21,11 @@
              
 (use-package solarized-theme
     :config (progn (load-theme 'solarized-dark t)))
+(use-package evil-surround
+    :ensure t
+    :config (global-evil-surround-mode 1)
+     )
+
 
 (require 'init-flycheck-mode)
 (require 'init-autopair)
