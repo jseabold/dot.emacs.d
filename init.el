@@ -28,6 +28,7 @@
 
 
 (require 'init-flycheck-mode)
+(require 'init-jedi)
 (require 'init-autopair)
 (require 'init-web-mode)
 (require 'init-python-mode)
