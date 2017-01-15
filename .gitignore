@@ -2,3 +2,5 @@
 auto-save-list
 custom.el*
 elpa
+backups/
+.python-environments
