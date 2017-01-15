@@ -29,6 +29,9 @@
      )
 
 
+;;; Shell Setup
+(setq explicit-shell-file-name "/bin/bash")
+
 (require 'init-flycheck-mode)
 (require 'init-jedi)
 (require 'init-autopair)
