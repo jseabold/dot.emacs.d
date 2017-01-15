@@ -5,6 +5,8 @@
                          ("org" . "http://orgmode.org/elpa/")
                          ("gnu" . "http://elpa.gnu.org/packages/")))
 
+(setq inhibit-startup-screen 1)
+
 ;; Package Configuration
 (require 'package)
 (package-initialize)
