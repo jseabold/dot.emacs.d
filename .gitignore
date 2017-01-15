@@ -4,3 +4,5 @@ custom.el*
 elpa
 backups/
 .python-environments
+eshell
+ac-comphist.dat
