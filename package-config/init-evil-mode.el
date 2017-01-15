@@ -33,4 +33,8 @@
   :init (progn
           (evil-commentary-mode)))
 
+(use-package evil-numbers
+  :ensure t
+  :after evil)
+
 (provide 'init-evil-mode)
