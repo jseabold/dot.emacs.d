@@ -28,6 +28,7 @@
     :config (global-evil-surround-mode 1)
      )
 
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
 
 ;;; Shell Setup
 (setq explicit-shell-file-name "/bin/bash")
