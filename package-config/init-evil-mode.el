@@ -4,8 +4,8 @@
               (evil-leader/set-leader "<SPC>")
               (evil-leader/set-key
                 "w" 'save-buffer
-                "h" 'split
-                "v" 'vsplit
+                "s" 'evil-window-split
+                "v" 'evil-window-vsplit
                 "q" 'evil-quit
                 )
               (global-evil-leader-mode)))
