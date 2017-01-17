@@ -41,4 +41,5 @@
 (require 'init-autopair)
 (require 'init-web-mode)
 (require 'init-python-mode)
+(require 'init-neotree)
 (require 'init-evil-mode)

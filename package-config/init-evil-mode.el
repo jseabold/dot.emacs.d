@@ -7,6 +7,8 @@
                 "s" 'evil-window-split
                 "v" 'evil-window-vsplit
                 "q" 'evil-quit
+                "t" 'neotree-toggle
+                "p" 'neotree-project-dir
                 )
               (global-evil-leader-mode)))
 
