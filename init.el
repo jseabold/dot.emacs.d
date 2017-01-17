@@ -33,6 +33,7 @@
 (setq explicit-shell-file-name "/bin/bash")
 
 (require 'init-flycheck-mode)
+(require 'init-magit)
 (require 'init-jedi)
 (require 'init-autopair)
 (require 'init-web-mode)
