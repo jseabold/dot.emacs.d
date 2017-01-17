@@ -34,6 +34,9 @@
 
 (require 'init-flycheck-mode)
 (require 'init-magit)
+(use-package evil-magit
+             :ensure t
+             )
 (require 'init-jedi)
 (require 'init-autopair)
 (require 'init-web-mode)
