@@ -33,6 +33,7 @@
 ;;; Shell Setup
 (setq explicit-shell-file-name "/bin/bash")
 
+(require 'init-linum)
 (require 'init-flycheck-mode)
 (require 'init-magit)
 (use-package evil-magit
