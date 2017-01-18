@@ -43,4 +43,5 @@
 (require 'init-web-mode)
 (require 'init-python-mode)
 (require 'init-neotree)
+(require 'init-projectile)
 (require 'init-evil-mode)

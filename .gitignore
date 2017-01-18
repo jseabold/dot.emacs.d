@@ -6,3 +6,4 @@ backups/
 .python-environments
 eshell
 ac-comphist.dat
+projectile-bookmarks*
