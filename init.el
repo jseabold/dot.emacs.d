@@ -20,7 +20,7 @@
 
 (use-package better-defaults
     :ensure t)
-             
+
 (use-package solarized-theme
     :config (progn (load-theme 'solarized-dark t)))
 (use-package evil-surround
@@ -43,5 +43,6 @@
 (require 'init-web-mode)
 (require 'init-python-mode)
 (require 'init-neotree)
+(require 'init-helm)
 (require 'init-projectile)
 (require 'init-evil-mode)
