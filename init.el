@@ -45,4 +45,5 @@
 (require 'init-neotree)
 (require 'init-helm)
 (require 'init-projectile)
+(require 'init-helm-projectile)
 (require 'init-evil-mode)
