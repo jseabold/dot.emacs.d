@@ -1,5 +1,6 @@
 (use-package magit
   :ensure t
+  :defer t
   :config
   (progn
     ;; highlight word/letter changes in hunk diffs
