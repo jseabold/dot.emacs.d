@@ -43,6 +43,7 @@
 (require 'init-autopair)
 (require 'init-web-mode)
 (require 'init-python-mode)
+(require 'init-cython-mode)
 (require 'init-neotree)
 (require 'init-helm)
 (require 'init-projectile)
