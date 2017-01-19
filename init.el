@@ -27,6 +27,10 @@
     :ensure t
     :config (global-evil-surround-mode 1)
      )
+(use-package xclip
+             :ensure t
+             :config (xclip-mode 1)
+             )
 
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
