@@ -48,6 +48,7 @@
 (require 'init-web-mode)
 (require 'init-python-mode)
 (require 'init-cython-mode)
+(require 'init-ess)
 (require 'init-neotree)
 (require 'init-helm)
 (require 'init-projectile)
