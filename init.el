@@ -37,6 +37,13 @@
 ;;; Shell Setup
 (setq explicit-shell-file-name "/bin/bash")
 
+;;; highlight long lines, trailing whitespace
+(use-package whitespace
+  :diminish whitespace-mode
+  :config (global-whitespace-mode t)
+  :init (setq whitespace-style '(face empty tabs lines-tail trailing))
+  )
+
 (require 'init-linum)
 (require 'init-markdown-mode)
 (require 'init-flycheck-mode)
