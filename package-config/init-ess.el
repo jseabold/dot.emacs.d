@@ -7,4 +7,8 @@
        'symbol-or-paren-or-punct)
  )
 
+(add-hook 'ess-mode-hook
+          (lambda ()
+            (ess-toggle-underscore nil)))
+
 (provide 'init-ess)
