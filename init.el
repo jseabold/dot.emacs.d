@@ -48,6 +48,7 @@
   :init (setq whitespace-style '(face empty tabs lines-tail trailing))
   )
 
+(require 'init-yasnippet)
 (require 'init-linum)
 (require 'init-markdown-mode)
 (require 'init-flycheck-mode)
