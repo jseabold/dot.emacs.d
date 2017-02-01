@@ -65,4 +65,5 @@
 (require 'init-helm)
 (require 'init-projectile)
 (require 'init-helm-projectile)
+(require 'init-sql-upcase)
 (require 'init-evil-mode)
