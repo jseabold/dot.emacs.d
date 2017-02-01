@@ -43,6 +43,7 @@
 ;;; highlight long lines, trailing whitespace
 (use-package whitespace
   :diminish whitespace-mode
+  :diminish global-whitespace-mode
   :config (global-whitespace-mode t)
   :init (setq whitespace-style '(face empty tabs lines-tail trailing))
   )

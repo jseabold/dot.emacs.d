@@ -1,5 +1,6 @@
 (use-package helm
   :ensure t
+  :diminish helm-mode
   :config
   (helm-mode 1)
   (setq helm-autoresize-mode t)
