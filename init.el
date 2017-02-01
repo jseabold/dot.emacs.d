@@ -48,6 +48,12 @@
   :init (setq whitespace-style '(face empty tabs lines-tail trailing))
   )
 
+(eval-after-load "auto-complete"
+  '(diminish 'auto-complete-mode))
+
+(eval-after-load "outline"
+  '(diminish 'outline-minor-mode))
+
 (require 'init-yasnippet)
 (require 'init-linum)
 (require 'init-markdown-mode)
