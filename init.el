@@ -48,6 +48,11 @@
   :init (setq whitespace-style '(face empty tabs lines-tail trailing))
   )
 
+(use-package fill-column-indicator
+  :diminish fci-mode
+  :config (setq fci-rule-column 80)
+  )
+
 (eval-after-load "auto-complete"
   '(diminish 'auto-complete-mode))
 
