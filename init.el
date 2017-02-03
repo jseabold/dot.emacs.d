@@ -48,6 +48,8 @@
   :init (setq whitespace-style '(face empty tabs lines-tail trailing))
   )
 
+(setq vc-follow-symlinks t)
+
 (use-package fill-column-indicator
   :diminish fci-mode
   :config (setq fci-rule-column 80)
