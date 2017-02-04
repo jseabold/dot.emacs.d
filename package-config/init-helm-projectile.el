@@ -1,5 +1,6 @@
 (use-package helm-projectile
   :ensure t
+  :after evil-leader
   :config
   (evil-leader/set-key
     "p" 'helm-projectile
