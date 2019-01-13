@@ -9,7 +9,8 @@
 
 ;; Package Configuration
 (require 'package)
-(package-initialize)
+;; This isn't necessary in emacs 27 anymore. not sure I'm running 27 everywhere.
+;; (package-initialize)
 (setq use-package-always-ensure t)
 
  ;; Bootstrap use-package
@@ -81,3 +82,5 @@
 (require 'init-helm-projectile)
 (require 'init-sql-upcase)
 (require 'init-evil-mode)
+(require 'init-rjsx-mode)
+(require 'init-yaml-mode)
