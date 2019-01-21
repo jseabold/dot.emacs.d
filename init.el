@@ -74,7 +74,7 @@
              :ensure t
              )
 (require 'init-jedi)
-(require 'init-autopair)
+(require 'init-electric)
 (require 'init-web-mode)
 (require 'init-python-mode)
 (require 'init-cython-mode)
