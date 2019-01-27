@@ -51,6 +51,8 @@
 
 (setq vc-follow-symlinks t)
 
+(electric-pair-mode t)
+
 (use-package fill-column-indicator
   :diminish fci-mode
   :config (setq fci-rule-column 80)
@@ -74,7 +76,6 @@
              :ensure t
              )
 (require 'init-jedi)
-(require 'init-electric)
 (require 'init-web-mode)
 (require 'init-python-mode)
 (require 'init-cython-mode)
