@@ -43,6 +43,7 @@
 
 ;;; highlight long lines, trailing whitespace
 (use-package whitespace
+  :ensure nil
   :diminish whitespace-mode
   :diminish global-whitespace-mode
   :config (global-whitespace-mode t)
