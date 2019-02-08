@@ -62,7 +62,7 @@
 (eval-after-load "outline"
   '(diminish 'outline-minor-mode))
 
-# Use default C-c C-e to show eldoc
+;; Use default C-c C-e to show eldoc
 (global-eldoc-mode -1)
 
 (require 'init-yasnippet)
