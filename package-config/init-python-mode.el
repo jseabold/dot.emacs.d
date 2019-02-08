@@ -5,8 +5,11 @@
   (progn
     (add-hook 'python-mode-hook 'anaconda-mode)
     (add-hook 'python-mode-hook 'jedi:setup)
-    ;; fill-colunn-indicator
+    ;; fill-column-indicator
     (add-hook 'python-mode-hook 'fci-mode)
+    (add-hook 'python-mode-hook (lambda()
+                                  (flycheck-select-checker `python-flake8)
+                                  ))
     )
   )
 
