@@ -9,8 +9,8 @@
 
 ;; Package Configuration
 (require 'package)
-;; This isn't necessary in emacs 27 anymore. not sure I'm running 27 everywhere.
-;; (package-initialize)
+;; package-initialize isn't necessary in emacs 27 anymore. not running 27 everywhere.
+(ignore-errors (package-initialize))
 (setq use-package-always-ensure t)
 
  ;; Bootstrap use-package
