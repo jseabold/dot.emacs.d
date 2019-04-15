@@ -11,7 +11,6 @@
 (require 'package)
 ;; package-initialize isn't necessary in emacs 27 anymore. not running 27 everywhere.
 (ignore-errors (package-initialize))
-(setq use-package-always-ensure t)
 
  ;; Bootstrap use-package
 (unless (package-installed-p 'use-package)
@@ -41,7 +40,7 @@
 ;;; Shell Setup
 (setq explicit-shell-file-name "/bin/bash")
 
-;;; highlight long lines, trailing whitespace
+;; highlight long lines, trailing whitespace
 (use-package whitespace
   :ensure nil
   :diminish whitespace-mode
