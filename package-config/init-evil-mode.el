@@ -8,6 +8,7 @@
                 "v" 'evil-window-vsplit
                 "q" 'evil-quit
                 "t" 'neotree-toggle
+                "b" 'switch-to-buffer
                 )
               (global-evil-leader-mode)))
 
