@@ -3,7 +3,7 @@
   :diminish flycheck-mode
   :config
   (global-flycheck-mode)
-  (setq-default flycheck-disabled-checkets
+  (setq-default flycheck-disabled-checkers
                 '(javascript-jshint))
   (setq flycheck-checkers '(emacs-lisp
                             javascript-eslint
