@@ -13,7 +13,7 @@
              :config
              (add-hook 'sql-mode-hook
                        '(lambda ()
-                          ('sql-sqlint)
+                          (flycheck-select-checker 'sql-sqlint)
                           ))
              )
 
