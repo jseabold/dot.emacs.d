@@ -9,6 +9,9 @@
     (add-hook 'python-mode-hook (lambda()
                                   (flycheck-select-checker `python-flake8)
                                   ))
+    (add-hook 'python-mode-hook (lambda()
+                                 (modify-syntax-entry ?_ "w")
+                                 ))
     )
   )
 
