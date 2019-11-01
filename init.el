@@ -67,6 +67,8 @@
 ;; Use default C-c C-e to show eldoc
 (global-eldoc-mode -1)
 
+(setq backup-directory-alist '(("." . "~/.emacs.d/auto-save-list")))
+
 (require 'init-yasnippet)
 (require 'init-linum)
 (require 'init-markdown-mode)
