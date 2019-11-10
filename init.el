@@ -91,3 +91,4 @@
 (require 'init-evil-mode)
 (require 'init-rjsx-mode)
 (require 'init-yaml-mode)
+(require 'init-origami)
