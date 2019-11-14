@@ -58,6 +58,8 @@
   :config (setq fci-rule-column 80)
   )
 
+(ac-config-default)
+(global-auto-complete-mode t)
 (eval-after-load "auto-complete"
   '(diminish 'auto-complete-mode))
 
