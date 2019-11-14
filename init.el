@@ -6,6 +6,12 @@
                          ("gnu" . "http://elpa.gnu.org/packages/")))
 
 
+(let ((basedir (expand-file-name "custom-themes/" user-emacs-directory)))
+  (dolist (f (directory-files basedir t "[^.]"))
+    (add-to-list 'custom-theme-load-path f)))
+(setq solarized-termcolors 256)
+(load-theme 'solarized t)
+
 (setq inhibit-startup-screen 1)
 
 ;; Package Configuration
