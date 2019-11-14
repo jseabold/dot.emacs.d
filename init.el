@@ -5,6 +5,7 @@
                          ("org" . "http://orgmode.org/elpa/")
                          ("gnu" . "http://elpa.gnu.org/packages/")))
 
+
 (setq inhibit-startup-screen 1)
 
 ;; Package Configuration
@@ -24,8 +25,7 @@
 (use-package better-defaults
     :ensure t)
 
-(use-package solarized-theme
-    :config (progn (load-theme 'solarized-dark t)))
+
 (use-package evil-surround
     :ensure t
     :config (global-evil-surround-mode 1)

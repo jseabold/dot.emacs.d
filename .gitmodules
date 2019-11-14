@@ -1,3 +1,6 @@
 [submodule "yasnippet-snippets"]
 	path = yasnippet-snippets
 	url = https://github.com/AndreaCrotti/yasnippet-snippets
+[submodule "custom-themes/emacs-color-theme-solarized"]
+	path = custom-themes/emacs-color-theme-solarized
+	url = https://github.com/sellout/emacs-color-theme-solarized
