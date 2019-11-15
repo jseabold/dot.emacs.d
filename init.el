@@ -9,8 +9,17 @@
 (let ((basedir (expand-file-name "custom-themes/" user-emacs-directory)))
   (dolist (f (directory-files basedir t "[^.]"))
     (add-to-list 'custom-theme-load-path f)))
-(setq solarized-termcolors 256)
+;; Use 16 colors here instead of 256. Make sure terminal palette is set to solarized
+;; then it will use the "exact" solarized values from the (terminal) palette and allow
+;; use of the fixed 256 color palette here. See solarized-termcolors
+(setq solarized-termcolors 16)
+;; gnome-terminal + tmux means italics become ... complicated
+(setq solarized-italic nil)
+(custom-set-variables
+    '(frame-background-mode 'dark)
+  )
 (load-theme 'solarized t)
+
 
 (setq inhibit-startup-screen 1)
 
