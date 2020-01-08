@@ -34,7 +34,8 @@
   (package-install 'use-package))
 (eval-when-compile
   (require 'use-package) )
-(require 'diminish)
+(use-package diminish
+  :ensure t)
 (require 'bind-key)
 
 (use-package better-defaults
@@ -73,6 +74,8 @@
   :config (setq fci-rule-column 80)
   )
 
+(use-package auto-complete
+  :ensure t)
 (ac-config-default)
 (global-auto-complete-mode t)
 (eval-after-load "auto-complete"
