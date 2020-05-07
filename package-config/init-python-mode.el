@@ -15,4 +15,12 @@
     )
   )
 
+(use-package python-black
+             :ensure t
+             :after python
+             :init
+             (progn
+               (add-hook 'python-mode-hook 'python-black-on-save-mode)
+             ))
+
 (provide 'init-python-mode)
