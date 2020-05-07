@@ -15,12 +15,22 @@
     )
   )
 
+
+(defun blacken-project-is-blackened (&optional display)
+  "Whether the project has a pyproject.toml with [tool.black] in it."
+  (when-let ((parent (locate-dominating-file default-directory "pyproject.toml")))
+    (with-temp-buffer
+      (insert-file-contents (concat parent "pyproject.toml"))
+      (re-search-forward "^\\[tool.black\\]$" nil t 1))))
+
+
 (use-package python-black
              :ensure t
              :after python
              :init
              (progn
-               (add-hook 'python-mode-hook 'python-black-on-save-mode)
+               (when (blacken-project-is-blackened)
+                (add-hook 'python-mode-hook 'python-black-on-save-mode))
              ))
 
 (provide 'init-python-mode)
