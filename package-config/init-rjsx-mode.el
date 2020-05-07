@@ -1,4 +1,5 @@
 (use-package rjsx-mode
+  :ensure t
   :mode (("\\.js$" . rjsx-mode)
          ))
 :config (progn

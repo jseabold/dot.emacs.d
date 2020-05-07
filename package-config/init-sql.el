@@ -6,11 +6,13 @@
   )
 
 (use-package sql-indent
+             :ensure t
              :diminish sql-indent
              :hook (sql-mode . sqlind-minor-mode)
              )
 
 (use-package sql
+             :ensure t
              :config
              (add-hook 'sql-mode-hook
                        '(lambda ()

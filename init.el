@@ -70,6 +70,7 @@
 (electric-pair-mode t)
 
 (use-package fill-column-indicator
+  :ensure t
   :diminish fci-mode
   :config (setq fci-rule-column 80)
   )
