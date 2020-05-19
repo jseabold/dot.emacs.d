@@ -1,5 +1,6 @@
 (use-package js2-mode
   :mode (("\\.js$" . js2-mode)
+         ("\\.ts$" . js2-mode)
          )
 
   :config (progn

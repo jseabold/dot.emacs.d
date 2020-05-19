@@ -1,6 +1,7 @@
 (use-package rjsx-mode
   :ensure t
   :mode (("\\.js$" . rjsx-mode)
+         ("\\.ts$" . rjsx-mode)
          )
   :config (progn
             (setq-default js-indent-level 2
