@@ -110,6 +110,7 @@
 (require 'init-sql)
 (require 'init-yaml-mode)
 (require 'init-evil-mode)
+(require 'init-js2-mode)
 (require 'init-rjsx-mode)
 (require 'init-yaml-mode)
 (require 'init-origami)
