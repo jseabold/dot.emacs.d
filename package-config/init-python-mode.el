@@ -33,4 +33,10 @@
                 (add-hook 'python-mode-hook 'python-black-on-save-mode))
              ))
 
+(use-package py-isort
+             :ensure t
+             :after python
+             :init
+             (add-hook 'before-save-hook 'py-isort-before-save))
+
 (provide 'init-python-mode)
