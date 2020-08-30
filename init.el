@@ -1,7 +1,7 @@
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 (load custom-file 'noerror)
 (add-to-list 'load-path (expand-file-name "package-config/" user-emacs-directory))
-(setq package-archives '(("melpa" . "http://stable.melpa.org/packages/")
+(setq package-archives '(("melpa" . "http://melpa.org/packages/")
                          ("org" . "http://orgmode.org/elpa/")
                          ("gnu" . "http://elpa.gnu.org/packages/")))
 
@@ -115,3 +115,6 @@
 (require 'init-yaml-mode)
 (require 'init-origami)
 (require 'init-elisp)
+(require 'init-arduino)
+(require 'init-platformio)
+(require 'init-irony)
